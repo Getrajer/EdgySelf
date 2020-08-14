@@ -1,0 +1,116 @@
+﻿.navbar {
+    display: none;
+}
+
+footer{
+    display:none;
+}
+
+body {
+    background-image: url(../images/bacground_3.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index_page{
+    display:flex;
+    justify-content:center;
+
+    width:100%;
+    min-height:100vh;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+
+.index_page .index_page_container{
+    width:100%;
+    max-width:550px;
+    color:white;
+}
+
+.index_page .title{
+    text-align:center;
+    padding:4em 0 2em 0;
+}
+
+.index_page .title h1{
+    font-size:8rem;
+    letter-spacing:30px;
+    text-align:center;
+}
+
+.index_page form{
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.index_page form .form_title{
+    text-align:center; 
+    padding: 1em 0;
+}
+
+.index_page form .form_title h2{
+    font-size:3rem;
+}
+
+.index_page form label{
+    font-family: 'Satisfy', cursive;
+    font-size:1.3rem;
+    display:block;  
+}
+
+.index_page .form_box{
+    padding: 2em 0;
+    text-align:center;
+}
+
+.index_page .form_box input{
+    border: unset;
+    background-color: unset;
+    text-align:center;
+    border-bottom: 1px solid rgba(237, 237, 237, 0.30);
+    padding: 0.5em;
+    color:rgba(237, 237, 237, 0.30);
+    transition: 0.5s;
+}
+
+.index_page .form_box input:focus{
+    outline:unset;
+    border-bottom: 1px solid #8a1717;
+    color: rgba(237, 237, 237, 1);
+}
+
+.index_page .button_container{
+    text-align:right;
+    padding:3em 2em 2em 0;
+}
+
+.index_page .button_container button{
+    background-color:unset;
+    border: 1px solid rgba(237, 237, 237, 0.30);
+    color: rgba(237, 237, 237, 0.30);
+    font-size:1.1rem;
+    padding:0.5em;
+    transition:0.5s;
+}
+
+.index_page .button_container button:hover{
+    color:#8a1717;
+    border: 1px solid #8a1717;
+}
+
+.index_page .bottom_panel{
+    padding: 1em 0;
+    width:100%;
+    color: rgba(237, 237, 237, 0.50);
+}
+
+.index_page .bottom_panel a{
+    color: rgba(237, 237, 237, 0.50);
+    transition:0.5s;
+    cursor:pointer;
+}
+
+.index_page .bottom_panel a:hover{
+    color:#8a1717;
+}
